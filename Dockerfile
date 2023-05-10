@@ -11,7 +11,7 @@ COPY . /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Применяем миграции
-RUN python manage.py makemigrations main && python manage.py migrate
+RUN python manage.py makemigrations main && python manage.py migrate && python manage.py collectstatic
 
 
 # Запускаем сервер Django
