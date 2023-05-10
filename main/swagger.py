@@ -9,7 +9,7 @@ schema_view = get_schema_view(
         title='Friendler',
         default_version='v1',
         description='My API description',
-        terms_of_service='http://kamaliev.asuscomm.com/vk',
+        terms_of_service='http://kamaliev.asuscomm.com/vk/redoc',
         contact=openapi.Contact(email='KamaIiev@yandex.ru')
     ),
     public=True,
