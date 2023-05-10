@@ -22,3 +22,8 @@ ___
 
 * `docker build -t django_project:v1 .`
 * `docker run --name backend -p 8000:8000 django_project:v1`
+
+
+
+
+http://kamaliev.asuscomm.com/vk/redoc/
